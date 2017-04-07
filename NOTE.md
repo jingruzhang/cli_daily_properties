@@ -30,4 +30,5 @@ Which one would you like to learn more about? (1-20)
 scraper.rb
 property.rb
 
+Step zero: basic interface and fake data
 Step one: scrape zillow with a static zipcode--60618
