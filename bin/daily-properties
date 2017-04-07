@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require './lib/daily_properties' 
+DailyProperties::CLI.new.call #a useful pattern
