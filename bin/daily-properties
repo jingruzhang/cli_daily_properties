@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
-require './lib/daily_properties' 
+require "bundler/setup"
+require "daily_properties"
 
 DailyProperties::CLI.new.call #a useful pattern
