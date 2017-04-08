@@ -8,7 +8,8 @@ class DailyProperties::CLI
     end
 
     def list_properties
-        @properties = DailyProperties::Property.all
+        DailyProperties::Scraper.make_properties
+        @properties = DailyProperties::Property.property
         @properties.each.with_index(1) do |property, i|
             puts "#{i}. #{property.address}, #{property.sold_date} at #{property.price}"
         end
@@ -20,7 +21,7 @@ class DailyProperties::CLI
         while input != "exit"
             puts "Enter the number of the property that you'd like to know more about, or enter list to see the list, or enter exit:"
             input = gets.strip.downcase
-            if input.to_i > 0 && input.to_i < 21
+            if input.to_i > 0 && input.to_i < 27
                 the_property = @properties[input.to_i - 1]
                 puts "#{the_property.address}, #{the_property.sold_date} at #{the_property.price}"
             elsif input == "list"

@@ -1,6 +1,6 @@
-#require "nokogiri"
-#require 'open-uri'
-#require 'pry'
+require "nokogiri"
+require 'open-uri'
+require 'pry'
 
 require_relative "../lib/daily_properties/version"
 require_relative '../lib/daily_properties/cli'
