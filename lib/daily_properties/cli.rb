@@ -4,7 +4,6 @@ class DailyProperties::CLI
     def call
         puts "Welcome! Please enter the zipcode, and I will list the 26 most recently sold properties in that area:"
         zipcode = gets.strip.to_i
-        #puts "Welcome to Daily Properties! Here's a list of the 20 properties most recently sold within the zipcode area 60618."
         list_properties(zipcode)
         menu
     end

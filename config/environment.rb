@@ -1,6 +1,8 @@
 require "nokogiri"
 require 'open-uri'
 require 'pry'
+require 'bundler'
+Bundler.require
 
 require_relative "../lib/daily_properties/version"
 require_relative '../lib/daily_properties/cli'
