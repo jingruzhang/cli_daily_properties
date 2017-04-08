@@ -21,8 +21,9 @@ A list of 26 properties
 Which one would you like to learn more about? (1-26)
 Goodbye!
 
-Step zero: basic interface and fake data
-Step one: scrape zillow with a static zipcode--60618
+Step zero: basic interface and fake data(completed)
+Step one: scrape zillow with a static zipcode--60618(completed)
+Step two: scrape zillow with a zipcode given by user
 
 What is a property?
 A property has an address

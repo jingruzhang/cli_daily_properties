@@ -24,3 +24,4 @@ class DailyProperties::Property
     end
 
 end
+

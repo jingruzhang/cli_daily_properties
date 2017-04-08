@@ -24,6 +24,7 @@ class DailyProperties::CLI
             if input.to_i > 0 && input.to_i < 27
                 the_property = @properties[input.to_i - 1]
                 puts "#{the_property.address}, #{the_property.sold_date} at #{the_property.price}"
+                puts "See more at #{the_property.url}"
             elsif input == "list"
                 list_properties
             elsif input == "exit"
