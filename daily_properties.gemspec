@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{It displays a list of 26 properties recently sold within a zipcode area, scrapped from zillow.com}
   spec.description   = <<-EOF
-  This CLI gem helps home buyers and sellers to view the most recently sold properties within a given zipcode. Use 'daily_properties' command to run.
+  This CLI gem helps home buyers and sellers to view the most recently sold properties within a given zipcode. Use 'daily-properties' command to run.
   It asks users for a zipcode input, and gives users a list of 26 most recently sold properties. Users can type respective property number to get the url to view more details of the property.
   EOF
 
