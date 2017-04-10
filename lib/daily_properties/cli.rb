@@ -34,7 +34,7 @@ class DailyProperties::CLI
                 goodbye
                 exit
             else
-                puts "Not sure what you just enter. Type list or exit. "
+                puts "Not sure what you just enter."
                 puts "--------------------------------------------------"
             end
         end
