@@ -20,7 +20,7 @@ class DailyProperties::CLI
     def menu
         input = nil
         while input != "exit"
-            puts "Enter the number of the property that you'd like to know more about, or enter another to look up another zipcode, or enter list to see the list, or enter exit: "
+            puts "Enter the number of the property that you'd like to know more about, or enter another to look up another zipcode, or enter exit: "
             input = gets.strip.downcase
             if input.to_i > 0 && input.to_i < 27
                 the_property = @properties[input.to_i - 1]
@@ -30,8 +30,6 @@ class DailyProperties::CLI
                 DailyProperties::Property.clear_all
                 puts "--------------------------------------------------"
                 call
-            elsif input == "list"
-                list_properties
             elsif input == "exit"
                 goodbye
                 exit
