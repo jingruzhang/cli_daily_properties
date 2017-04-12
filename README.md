@@ -1,28 +1,18 @@
 # DailyProperties
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/daily_properties`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Put in the zipcode you would like to look up the most recently sold properties within that zipcode area, the gem will return you a list of 26 most recently sold properties with addresses, sold dates, sold prices, and urls to photos and other specs on zillow.com. Follow the menu prompts and have fun! 
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'daily_properties'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install daily_properties
 
 ## Usage
 
-After installing the gem, run command 'daily-properties' to start. Put in the zipcode you would like to look up the most recently sold properties within that zipcode area, the gem will return you a list of 26 properties with addresses, sold dates, sold prices, and urls to photos and other specs on zillow.com. Follow the menu instructions and have fun! 
+After installing the gem, run command `daily-properties` to start. 
+
+Here is a link to a walkthough video I made. (https://youtu.be/npKP1ylzQA0)
 
 ## Development
 

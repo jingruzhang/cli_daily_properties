@@ -19,12 +19,28 @@ class DailyProperties::Property
             )
     end
 
-    def self.property
+    def self.properties
         @@all 
     end
 
     def self.clear_all
         @@all.clear
+    end
+
+    def self.find(index)
+        index < 0 ? nil : @@all[index]
+    end
+
+    def convert_price_to_int
+        if price.include?("M")
+            (price.split("$")[1].gsub("M", "").to_f*1000000).to_i
+        else
+            price.split("$")[1].gsub(",", "").to_i 
+        end
+    end
+
+    def self.sort_by_price
+        @@all.sort! {|a, b| b.convert_price_to_int <=> a.convert_price_to_int}
     end
 
 end

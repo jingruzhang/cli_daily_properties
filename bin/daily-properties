@@ -1,6 +1,8 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env ruby 
 
 require "bundler/setup"
 require "daily_properties"
 
-DailyProperties::CLI.new.call
+DailyProperties::CLI.new.welcome
+
+
