@@ -1,6 +1,6 @@
 # DailyProperties
 
-Put in the zipcode you would like to look up the most recently sold properties within that zipcode area, the gem will return you a list of 26 most recently sold properties with addresses, sold dates, sold prices, and urls to photos and other specs on zillow.com. Follow the menu prompts and have fun! 
+Put in the zipcode you would like to look up the most recently sold properties within that zipcode area, the gem will return you a list of the most recently sold properties with addresses, sold dates, sold prices, and urls to photos and other specs on zillow.com. Follow the menu prompts and have fun! 
 
 ## Installation
 
@@ -10,9 +10,9 @@ Install it yourself as:
 
 ## Usage
 
-After installing the gem, run command `daily-properties` to start. 
+After installing the gem, run command `daily-properties` to start. Please follow the prompts for instruction.
 
-Here is a link to a walkthough video I made. (https://youtu.be/npKP1ylzQA0)
+Here is a link to a walkthough video that I made. (https://youtu.be/npKP1ylzQA0)
 
 ## Development
 
